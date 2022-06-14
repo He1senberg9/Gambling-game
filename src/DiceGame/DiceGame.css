@@ -1,0 +1,28 @@
+@font-face {
+  font-family: pony;
+  src: url(./font/Pony.ttf);
+}
+* {
+  font-family: pony;
+}
+.back-ground {
+  background-image: url(/src/assets/images/bgGame.png);
+  height: 100vh;
+}
+.even-odd {
+  height: 10rem;
+  width: 10rem;
+  color: white;
+  font-size: 3rem;
+  background-color: rgb(80, 80, 191);
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+.even-odd:hover {
+  background-color: rgb(46, 46, 112);
+}
+.dice-group img {
+  width: 5rem;
+  height: 5rem;
+}
